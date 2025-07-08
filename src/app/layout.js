@@ -1,5 +1,4 @@
 import "./globals.css";
-import Header from "@/components/layout/Header";
 import { philosopher } from "@/lib/fonts";
 
 export const metadata = {
@@ -11,7 +10,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${philosopher.className} antialiased`}>
-        <Header />
         {children}
       </body>
     </html>
