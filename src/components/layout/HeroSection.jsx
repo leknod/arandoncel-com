@@ -3,8 +3,6 @@ import Hero from "@/assets/hero.jpg"
 
 export default function HeroSection() {
   return(
-    <section>
-      <Image src={Hero} alt="Hero" />
-    </section>
+    <section className="flex-1 bg-[url('/hero.jpg')] w-full h-full bg-cover bg-center" />
   );
 }

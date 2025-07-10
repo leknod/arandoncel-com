@@ -4,7 +4,7 @@ import { brunoAce } from "@/lib/fonts";
 
 export default function AboutMe() {
   return(
-    <section className="py-20 md:flex md:justify-center md:items-center md:gap-20 md:py-24">
+    <section id="about-me" className="py-20 md:flex md:justify-center md:items-center md:gap-20 md:py-24">
       <div className="px-4 mb-16 md:w-96 md:order-2 md:mb-0">
         <span className="block pb-1">hello i'm</span>
         <span className={`block pb-1 text-3xl font-bold uppercase ${brunoAce.className} antialiased`}>Aran Doncel</span>
