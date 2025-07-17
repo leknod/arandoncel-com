@@ -14,7 +14,7 @@ export default function AboutMe() {
         <p className="mb-4">Today, I shoot with a professional Olympus mirrorless system, which allows me to capture the kind of detail and clarity I always chased. My work is all about revealing the extraordinary in the ordinary — turning everyday subjects into something worth pausing for.</p>
       </div>
       <div className="md:w-124">
-        <Image src={picture} alt="about me" className="md:rounded-xl"></Image>
+        <Image src={picture} alt="about me" className="md:rounded-xl md:shadow-2xl shadow-black"></Image>
       </div>
     </section>
   );

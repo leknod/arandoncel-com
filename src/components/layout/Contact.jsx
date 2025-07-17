@@ -1,6 +1,6 @@
 export default function Contact() {
   return(
-    <section id="contact" className="py-20 px-4 mx-auto max-w-screen-md">
+    <section id="contact" className="py-20 px-4 mx-auto h-dvh max-w-screen-md">
       <p className="text-center">If you have any questions I can help you with, feel free to do it.</p>
       <p className="mb-16 text-center">Thank you!</p>
       <form action="#" className="flex flex-col gap-8">

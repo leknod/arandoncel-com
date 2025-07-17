@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { brunoAce } from '@/lib/fonts';
 import { AnimatePresence, motion } from 'framer-motion';
@@ -9,14 +9,29 @@ import TelegramIcon from '../icons/TelegramIcon';
 import EmailIcon from '../icons/EmailIcon';
 import Logo from '@/assets/logo2.jpg';
 import MenuIcon from '../icons/MenuIcon';
-import Nav from './Nav';
+import Menu from './Menu';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  useEffect(() => {
+  if (isMenuOpen) {
+    document.body.classList.add("overflow-hidden");
+    document.documentElement.classList.add("overflow-hidden");
+  } else {
+    document.body.classList.remove("overflow-hidden");
+    document.documentElement.classList.remove("overflow-hidden");
+  }
+
+  return () => {
+    document.body.classList.remove("overflow-hidden");
+    document.documentElement.classList.remove("overflow-hidden");
+  };
+}, [isMenuOpen]);
+
   return (
     <>
-      <header className={`flex justify-between items-center pl-4 pr-6 py-4 md:px-10 md:py-2 ${brunoAce.className} antialiased`}>
+      <header className={`h-16 flex justify-between items-center pl-4 pr-6 py-4 md:px-10 md:py-2 ${brunoAce.className} antialiased`}>
         <div className="gap-4 hidden md:flex">
           <a href="https://www.instagram.com/macrogoshinski/"><InstagramIcon /></a>
           <a href="https://www.flickr.com/photos/24685723@N05/"><FlickrIcon /></a>
@@ -49,13 +64,13 @@ export default function Header() {
               Photography
           </motion.span>
         </div>
-        <button className="flex gap-2 cursor-pointer pl-8" onClick={() => setIsMenuOpen(true)}>
+        <button className="flex gap-2 cursor-pointer pl-10" onClick={() => setIsMenuOpen(true)}>
           <span className="uppercase font-bold hidden md:block">Menu</span>
           <MenuIcon />
         </button>
       </header>
       <AnimatePresence>
-        {isMenuOpen && (<Nav onClose={() => setIsMenuOpen(false)} />)}
+        {isMenuOpen && (<Menu onClose={() => setIsMenuOpen(false)} />)}
       </AnimatePresence>
     </>
   );

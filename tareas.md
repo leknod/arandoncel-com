@@ -1,0 +1,14 @@
+- ~~Eliminar coffee del footer~~
+- ~~Overlay negro al Hero~~
+- Animar ScrollDown button 
+- Header sticky al hacer scroll hacia arriba
+- ~~Box shadow a la foto de about me~~
+- ~~Pensar donde colocar el 'buy me a coffee'~~
+- Acabar formulario de contacto (especialmente el botón) y centrarlo verticalmente
+- ~~Pulir el lightbox de la gaería~~
+- ~~Cambiar layout y hacer header con tamaño fijo~~
+
+- Repaso total de comillas
+- Responsive
+- Orden clases
+- Armonizar margins y paddings
