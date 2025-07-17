@@ -4,7 +4,7 @@
 - Header sticky al hacer scroll hacia arriba
 - ~~Box shadow a la foto de about me~~
 - ~~Pensar donde colocar el 'buy me a coffee'~~
-- Acabar formulario de contacto (especialmente el botón) y centrarlo verticalmente
+- ~~Acabar formulario de contacto (especialmente el botón) y centrarlo verticalmente~~
 - ~~Pulir el lightbox de la gaería~~
 - ~~Cambiar layout y hacer header con tamaño fijo~~
 

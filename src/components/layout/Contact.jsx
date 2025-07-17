@@ -1,6 +1,6 @@
 export default function Contact() {
   return(
-    <section id="contact" className="py-20 px-4 mx-auto h-dvh max-w-screen-md">
+    <section id="contact" className="flex flex-col justify-center py-20 px-4 mx-auto h-dvh max-w-screen-md">
       <p className="text-center">If you have any questions I can help you with, feel free to do it.</p>
       <p className="mb-16 text-center">Thank you!</p>
       <form action="#" className="flex flex-col gap-8">
@@ -16,7 +16,7 @@ export default function Contact() {
           <label htmlFor="message" className="block mb-2">Your message</label>
           <textarea id="message" rows="6" className="block p-2.5 w-full text-sm bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" placeholder="Leave a comment..."></textarea>
         </div>
-        <button type="submit" className="py-3 px-5 text-center rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300">Send message</button>
+        <button type="submit" className="py-3 px-5 text-center rounded-lg bg-neutral-900 text-gray-100 cursor-pointer sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300">Send message</button>
       </form>
     </section>
   );
