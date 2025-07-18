@@ -1,5 +1,5 @@
-import "./globals.css";
-import { philosopher } from "@/lib/fonts";
+import './globals.css';
+import { philosopher } from '@/lib/fonts';
 
 export const metadata = {
   title: "Create Next App",
@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth scroll-pt-16">
       <body className={`${philosopher.className} antialiased`}>
         {children}
       </body>

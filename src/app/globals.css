@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+body {
+  scrollbar-gutter: stable;
+}
+
 @media (min-width: 768px) {
   .yarl__slide_description_container {
     top: 1rem !important;

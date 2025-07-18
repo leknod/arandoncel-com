@@ -1,6 +1,6 @@
-import Image from "next/image";
-import picture from "@/assets/about-me.jpg";
-import { brunoAce } from "@/lib/fonts";
+import Image from 'next/image';
+import picture from '@/assets/about-me.jpg';
+import { brunoAce } from '@/lib/fonts';
 
 export default function AboutMe() {
   return(
@@ -13,8 +13,8 @@ export default function AboutMe() {
         <p className="mb-4">From there, I moved through different phases: a compact camera, then experimenting with reversed lenses on a DSLR — learning to build my own setups, control lighting, and work with razor-thin focus. Each step pushed me to be more precise and more patient.</p>
         <p className="mb-4">Today, I shoot with a professional Olympus mirrorless system, which allows me to capture the kind of detail and clarity I always chased. My work is all about revealing the extraordinary in the ordinary — turning everyday subjects into something worth pausing for.</p>
       </div>
-      <div className="md:w-124">
-        <Image src={picture} alt="about me" className="md:rounded-xl md:shadow-2xl shadow-black"></Image>
+      <div className="md:w-124 px-4 md:px-0">
+        <Image src={picture} alt="about me" className="rounded-xl shadow-2xl shadow-black"></Image>
       </div>
     </section>
   );

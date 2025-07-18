@@ -1,11 +1,7 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import CloseIcon from "../icons/CloseIcon";
-import InstagramIcon from "../icons/InstagramIcon";
-import FlickrIcon from "../icons/FlickerIcon";
-import TelegramIcon from "../icons/TelegramIcon";
-import EmailIcon from "../icons/EmailIcon";
-import { brunoAce } from "@/lib/fonts";
+import { brunoAce } from '@/lib/fonts';
+import { CloseIcon, InstagramIcon, FlickrIcon, TelegramIcon, EmailIcon } from '@/components/icons';
 
 export default function Menu({ onClose }) {
   return(
@@ -31,7 +27,7 @@ export default function Menu({ onClose }) {
           </div>
           <nav>
             <ul className="flex flex-col gap-4 text-xl font-semibold uppercase text-right md:gap-6">
-              <li><Link href={"/"} onClick={onClose}>Home</Link></li>
+              <li><Link href={"#header"} onClick={onClose}>Home</Link></li>
               <li><Link href={"#about-me"} onClick={onClose}>About Me</Link></li>
               <li><Link href={"#my-work"} onClick={onClose}>My Work</Link></li>
               <li><Link href={"#contact"} onClick={onClose}>Contact</Link></li>

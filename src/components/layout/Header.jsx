@@ -1,14 +1,10 @@
 'use client';
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { brunoAce } from '@/lib/fonts';
 import { AnimatePresence, motion } from 'framer-motion';
-import InstagramIcon from '../icons/InstagramIcon';
-import FlickrIcon from '../icons/FlickerIcon';
-import TelegramIcon from '../icons/TelegramIcon';
-import EmailIcon from '../icons/EmailIcon';
+import { brunoAce } from '@/lib/fonts';
 import Logo from '@/assets/logo2.jpg';
-import MenuIcon from '../icons/MenuIcon';
+import { InstagramIcon, FlickrIcon, TelegramIcon, EmailIcon, MenuIcon } from '@/components/icons'
 import Menu from './Menu';
 
 export default function Header() {
@@ -31,7 +27,13 @@ export default function Header() {
 
   return (
     <>
-      <header className={`h-16 flex justify-between items-center pl-4 pr-6 py-4 md:px-10 md:py-2 ${brunoAce.className} antialiased`}>
+      <motion.header
+        id="home"
+        className={`sticky top-0 h-16 flex justify-between items-center pl-4 pr-6 py-4 bg-white shadow-md lg:shadow-lg z-40 md:px-10 md:py-2 ${brunoAce.className} antialiased`}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 2, ease: "easeOut" }}
+      >
         <div className="gap-4 hidden md:flex">
           <a href="https://www.instagram.com/macrogoshinski/"><InstagramIcon /></a>
           <a href="https://www.flickr.com/photos/24685723@N05/"><FlickrIcon /></a>
@@ -68,7 +70,7 @@ export default function Header() {
           <span className="uppercase font-bold hidden md:block">Menu</span>
           <MenuIcon />
         </button>
-      </header>
+      </motion.header>
       <AnimatePresence>
         {isMenuOpen && (<Menu onClose={() => setIsMenuOpen(false)} />)}
       </AnimatePresence>

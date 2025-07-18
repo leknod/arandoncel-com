@@ -1,16 +1,16 @@
 'use client';
-import { useState } from "react";
+import { useState } from 'react';
 import { MasonryPhotoAlbum } from 'react-photo-album';
 import 'react-photo-album/masonry.css';
-import Lightbox from "yet-another-react-lightbox";
-import "yet-another-react-lightbox/styles.css";
-import Captions from "yet-another-react-lightbox/plugins/captions";
-import "yet-another-react-lightbox/plugins/captions.css";
-import Zoom from "yet-another-react-lightbox/plugins/zoom";
-import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
-import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
-import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
-import "yet-another-react-lightbox/plugins/thumbnails.css";
+import Lightbox from 'yet-another-react-lightbox';
+import 'yet-another-react-lightbox/styles.css';
+import Captions from 'yet-another-react-lightbox/plugins/captions';
+import 'yet-another-react-lightbox/plugins/captions.css';
+import Zoom from 'yet-another-react-lightbox/plugins/zoom';
+import Thumbnails from 'yet-another-react-lightbox/plugins/thumbnails';
+import Fullscreen from 'yet-another-react-lightbox/plugins/fullscreen';
+import Slideshow from 'yet-another-react-lightbox/plugins/slideshow';
+import 'yet-another-react-lightbox/plugins/thumbnails.css';
 
 const photos = [
   { src: "/images/gallery/photo-01.jpg", width: 1500, height: 1875, alt: "Frog - (Hyla meridionalis)", title: "Frog - (Hyla meridionalis)" },
@@ -28,6 +28,11 @@ const photos = [
   { src: "/images/gallery/photo-13.jpg", width: 1500, height: 1875, alt: "Big Robber Fly", title: "Big Robber Fly" },
   { src: "/images/gallery/photo-14.jpg", width: 1500, height: 1875, alt: "Baby Mantis", title: "Baby Mantis" },
   { src: "/images/gallery/photo-15.jpg", width: 1500, height: 1875, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
+  { src: "/images/gallery/photo-16.jpg", width: 1500, height: 1875, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
+  { src: "/images/gallery/photo-17.jpg", width: 1500, height: 1875, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
+  { src: "/images/gallery/photo-18.jpg", width: 1500, height: 1875, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
+  { src: "/images/gallery/photo-19.jpg", width: 1500, height: 1875, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
+  { src: "/images/gallery/photo-20.jpg", width: 1500, height: 1875, alt: "Lynx spider with prey", title: "Lynx spider with prey" }
 ];
 
 const thumbs = [
@@ -46,6 +51,11 @@ const thumbs = [
   { src: "/images/gallery/thumb-13.jpg", width: 500, height: 625, alt: "Big Robber Fly", title: "Big Robber Fly" },
   { src: "/images/gallery/thumb-14.jpg", width: 500, height: 625, alt: "Baby Mantis", title: "Baby Mantis" },
   { src: "/images/gallery/thumb-15.jpg", width: 500, height: 625, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
+  { src: "/images/gallery/thumb-16.jpg", width: 500, height: 625, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
+  { src: "/images/gallery/thumb-17.jpg", width: 500, height: 625, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
+  { src: "/images/gallery/thumb-18.jpg", width: 500, height: 625, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
+  { src: "/images/gallery/thumb-19.jpg", width: 500, height: 625, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
+  { src: "/images/gallery/thumb-20.jpg", width: 500, height: 625, alt: "Lynx spider with prey", title: "Lynx spider with prey" }
 ];
 
 
