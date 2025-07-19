@@ -28,11 +28,11 @@ const photos = [
   { src: "/images/gallery/photo-13.jpg", width: 1500, height: 1875, alt: "Big Robber Fly", title: "Big Robber Fly" },
   { src: "/images/gallery/photo-14.jpg", width: 1500, height: 1875, alt: "Baby Mantis", title: "Baby Mantis" },
   { src: "/images/gallery/photo-15.jpg", width: 1500, height: 1875, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
-  { src: "/images/gallery/photo-16.jpg", width: 1500, height: 1875, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
-  { src: "/images/gallery/photo-17.jpg", width: 1500, height: 1875, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
-  { src: "/images/gallery/photo-18.jpg", width: 1500, height: 1875, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
-  { src: "/images/gallery/photo-19.jpg", width: 1500, height: 1875, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
-  { src: "/images/gallery/photo-20.jpg", width: 1500, height: 1875, alt: "Lynx spider with prey", title: "Lynx spider with prey" }
+  { src: "/images/gallery/photo-16.jpg", width: 1500, height: 1875, alt: "Jumping spider - (Philaeus chrysops)", title: "Jumping spider - (Philaeus chrysops)" },
+  { src: "/images/gallery/photo-17.jpg", width: 1500, height: 1875, alt: "Jumping spider - (Aelurillus v-insignitus)", title: "Jumping spider - (Aelurillus v-insignitus)" },
+  { src: "/images/gallery/photo-18.jpg", width: 1500, height: 1875, alt: "Portrait of a Dragonfly", title: "Portrait of a Dragonfly" },
+  { src: "/images/gallery/photo-19.jpg", width: 1500, height: 1875, alt: "Portrait of a Demoiselle", title: "Portrait of a Demoiselle" },
+  { src: "/images/gallery/photo-20.jpg", width: 1500, height: 1875, alt: "Robber fly", title: "Robber fly" }
 ];
 
 const thumbs = [
@@ -51,11 +51,11 @@ const thumbs = [
   { src: "/images/gallery/thumb-13.jpg", width: 500, height: 625, alt: "Big Robber Fly", title: "Big Robber Fly" },
   { src: "/images/gallery/thumb-14.jpg", width: 500, height: 625, alt: "Baby Mantis", title: "Baby Mantis" },
   { src: "/images/gallery/thumb-15.jpg", width: 500, height: 625, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
-  { src: "/images/gallery/thumb-16.jpg", width: 500, height: 625, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
-  { src: "/images/gallery/thumb-17.jpg", width: 500, height: 625, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
-  { src: "/images/gallery/thumb-18.jpg", width: 500, height: 625, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
-  { src: "/images/gallery/thumb-19.jpg", width: 500, height: 625, alt: "Lynx spider with prey", title: "Lynx spider with prey" },
-  { src: "/images/gallery/thumb-20.jpg", width: 500, height: 625, alt: "Lynx spider with prey", title: "Lynx spider with prey" }
+  { src: "/images/gallery/thumb-16.jpg", width: 500, height: 625, alt: "Jumping spider - (Philaeus chrysops)", title: "Jumping spider - (Philaeus chrysops)" },
+  { src: "/images/gallery/thumb-17.jpg", width: 500, height: 625, alt: "Jumping spider - (Aelurillus v-insignitus)", title: "Jumping spider - (Aelurillus v-insignitus)" },
+  { src: "/images/gallery/thumb-18.jpg", width: 500, height: 625, alt: "Portrait of a Dragonfly", title: "Portrait of a Dragonfly" },
+  { src: "/images/gallery/thumb-19.jpg", width: 500, height: 625, alt: "Portrait of a Demoiselle", title: "Portrait of a Demoiselle" },
+  { src: "/images/gallery/thumb-20.jpg", width: 500, height: 625, alt: "Robber fly", title: "Robber fly" }
 ];
 
 

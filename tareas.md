@@ -1,3 +1,0 @@
-- Responsive
-- Orden clases
-- Armonizar margins y paddings

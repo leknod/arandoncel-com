@@ -7,14 +7,14 @@ export default function Menu({ onClose }) {
   return(
     <>
       <motion.div
-        className="fixed inset-0 bg-black/75 z-40 transition-opacity duration-900"
+        className="fixed inset-0 z-40 bg-black/75 transition-opacity duration-900"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         onClick={onClose} />
 
       <motion.aside
-        className={`fixed top-0 right-0 h-dvh w-4/5 px-10 py-10 flex items-end flex-col justify-between bg-white md:w-72 md:gap-8 md:py-20 z-50 ${brunoAce.className} antialiased`}
+        className={`fixed top-0 right-0 z-50 flex flex-col justify-between items-end md:gap-8 w-4/5 md:w-72 px-10 py-10 md:py-20 h-dvh ${brunoAce.className} antialiased bg-white`}
         initial={{ x: '100%' }}
         animate={{ x: 0 }}
         exit={{ x: '100%' }}
@@ -26,14 +26,14 @@ export default function Menu({ onClose }) {
             </button>
           </div>
           <nav>
-            <ul className="flex flex-col gap-4 text-xl font-semibold uppercase text-right md:gap-6">
-              <li><Link href={"#header"} onClick={onClose}>Home</Link></li>
+            <ul className="flex flex-col gap-4 md:gap-6 text-right text-xl font-semibold uppercase">
+              <li><Link href={"#home"} onClick={onClose}>Home</Link></li>
               <li><Link href={"#about-me"} onClick={onClose}>About Me</Link></li>
               <li><Link href={"#my-work"} onClick={onClose}>My Work</Link></li>
               <li><Link href={"#contact"} onClick={onClose}>Contact</Link></li>
             </ul>
           </nav>
-          <div className="flex gap-4 md:hidden">
+          <div className="flex md:hidden gap-4">
             <a href="https://www.instagram.com/macrogoshinski/"><InstagramIcon /></a>
             <a href="https://www.flickr.com/photos/24685723@N05/"><FlickrIcon /></a>
             <a href="https://t.me/Goshinski"><TelegramIcon /></a>
