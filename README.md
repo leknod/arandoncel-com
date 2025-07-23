@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+# AranDoncel.com
 
-First, run the development server:
+![Photographer Portfolio](./preview.jpeg)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**A clean and minimalist portfolio website for a professional photographer, built with Next.js and Tailwind CSS.**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[Live demo](https://arandoncel.com)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+</div>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📖 Overview
 
-## Learn More
+This project is a responsive and minimalistic portfolio site for a professional photographer.
 
-To learn more about Next.js, take a look at the following resources:
+It was designed to showcase the client's best work through a clean UI, smooth animations, and a modern photo gallery with lightbox functionality.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 What's Included
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- A fullscreen hero with background image and signature.
+- An “About Me” section with a short bio of the photographer.
+- A photo gallery with lightbox interaction.
+- Contact and social media links.
+- Smooth page transitions and scroll effects.
+- Responsive design.
 
-## Deploy on Vercel
+## 🛠️ Built With
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Motion](https://motion.dev/)
+- [React Photo Album](https://react-photo-album.com/)
+- [Yet Another React Lightbox](https://yet-another-react-lightbox.com/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚙️ Setup Guide
+
+You will need `node.js` and `git` installed globally on your machine.
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/project-name.git
+   ```
+
+2. Install dependencies:
+   
+   ```bash
+   cd project-name
+   npm install
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+Open http://localhost:3000 to view it in the browser.
+
+---
+
+<div align="center">
+
+[MIT License](https://github.com/leknod/arandoncel-com/blob/main/LICENSE) | [MarcDoncel.com](https://marcdoncel.com)
+
+</div>
