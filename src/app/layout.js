@@ -5,7 +5,7 @@ import { philosopher } from '@/lib/fonts';
 export const metadata = {
   title: 'Aran Doncel Photography',
   description: 'Step into a hidden world with detailed macro photography capturing insects, textures, and nature’s finest details.',
-  openGrapg: {
+  openGraph: {
     title: 'Aran Doncel Photography',
     type: 'website',
     url: 'https://arandoncel.com',
