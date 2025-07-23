@@ -4,13 +4,14 @@ import { philosopher } from '@/lib/fonts';
 
 export const metadata = {
   title: 'Aran Doncel Photography',
-  description: 'Step into a hidden world with detailed macro photography capturing insects, textures, and nature’s finest details.',
+  description: "Step into a hidden world with detailed macro photography capturing insects, textures, and nature's finest details.",
   openGraph: {
     title: 'Aran Doncel Photography',
+    description: "Step into a hidden world with detailed macro photography capturing insects, textures, and nature's finest details.",
     type: 'website',
     url: 'https://arandoncel.com',
     images: [{
-      url: '/og-image.jpg',
+      url: 'https://arandoncel.com/og-image.jpg',
       width: 1200,
       height: 630,
       alt: 'Aran Doncel Photography'
