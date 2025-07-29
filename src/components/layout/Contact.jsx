@@ -6,7 +6,7 @@ export default function Contact() {
       <form name="contact" method="POST" action="https://formsubmit.co/arandoncel@gmail.com" className="flex flex-col gap-8">
       <input type="hidden" name="_captcha" value="true" />
       <input type="hidden" name="_template" value="table" />
-      <input type="hidden" name="_next" value="https://arandoncel.com/prueba" />
+      <input type="hidden" name="_next" value="https://arandoncel.com/thank-you" />
         <div>
           <label htmlFor="email" className="block mb-2">Your email</label>
           <input type="email" id="email" name="email" className="block p-2.5 w-full text-sm bg-gray-50 border border-gray-300 rounded-lg shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="your@email.com" required />
