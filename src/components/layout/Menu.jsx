@@ -28,10 +28,10 @@ export default function Menu({ onClose }) {
           </div>
           <nav>
             <ul className="flex flex-col gap-4 md:gap-6 text-right text-xl font-semibold uppercase">
-              <li><Link href={"#home"} onClick={onClose}>Home</Link></li>
-              <li><Link href={"#about-me"} onClick={onClose}>About Me</Link></li>
-              <li><Link href={"#my-work"} onClick={onClose}>My Work</Link></li>
-              <li><Link href={"#contact"} onClick={onClose}>Contact</Link></li>
+              <li><Link href={"/#home"} onClick={onClose}>Home</Link></li>
+              <li><Link href={"/#about-me"} onClick={onClose}>About Me</Link></li>
+              <li><Link href={"/#my-work"} onClick={onClose}>My Work</Link></li>
+              <li><Link href={"/#contact"} onClick={onClose}>Contact</Link></li>
             </ul>
           </nav>
           <div className="flex md:hidden gap-4">
