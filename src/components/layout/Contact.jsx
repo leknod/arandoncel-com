@@ -3,7 +3,8 @@ export default function Contact() {
     <section id="contact" className="flex flex-col justify-center mx-auto py-20 px-4 max-w-screen-md">
       <p className="text-center">If you have any questions I can help you with, feel free to do it.</p>
       <p className="mb-16 text-center">Thank you!</p>
-      <form name="contact" method="POST" className="flex flex-col gap-8" netlify>
+      <form name="contact" method="POST" className="flex flex-col gap-8" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
         <div>
           <label htmlFor="email" className="block mb-2">Your email</label>
           <input type="email" id="email" name="email" className="block p-2.5 w-full text-sm bg-gray-50 border border-gray-300 rounded-lg shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="your@email.com" required />
